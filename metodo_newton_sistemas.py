@@ -109,7 +109,7 @@ if __name__ == "__main__":
         exibir_tabela=True,
     )
 
-    print("\n=== RESULTADO FINAL ===")
+    print("\nRESULTADO FINAL")
     if convergiu and solucao is not None:
         print(f"Solução encontrada : {np.array2string(solucao, precision=8)}")
         print(f"F(solução)         : {np.array2string(F(solucao), precision=2)}")
